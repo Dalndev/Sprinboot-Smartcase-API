@@ -1,6 +1,6 @@
 package com.dalndev.smartcase.infrastructure.persistence.jpa.entities;
 
-import com.dalndev.smartcase.domain.models.cases.CaseStatus;
+import com.dalndev.smartcase.domain.entities.cases.CaseStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -13,7 +13,10 @@ import java.time.LocalDateTime;
  * @author Dalndev
  *
  * @description
- * Representa
+ * Representa la persistencia de la entidad caso (Case) en la capa de infraestructura mediante la implementación de
+ * JPA (Jakarta Persistence API) donde las instancias son mapeadas a registros de una tabla
+ * en una base de datos (Servicio Externo) mediante un proveedor de persistencia (Hibernate)
+ * .
  *
  * @see <a href="https://jakarta.ee/learn/docs/jakartaee-tutorial/current/persist/persistence-intro/persistence-intro.html#_entities">Jakarta EE - Entities</a>
  * */

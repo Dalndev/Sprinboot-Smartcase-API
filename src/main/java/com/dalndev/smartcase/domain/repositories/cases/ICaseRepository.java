@@ -1,6 +1,6 @@
 package com.dalndev.smartcase.domain.repositories.cases;
 
-import com.dalndev.smartcase.domain.models.cases.Case;
+import com.dalndev.smartcase.domain.entities.cases.Case;
 
 import java.util.ArrayList;
 
